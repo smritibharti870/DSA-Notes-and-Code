@@ -1,0 +1,11 @@
+O(n): we can also called linear time complexity, time complexity will grow in direct proportion to the size of input data.
+
+def print_items(n):
+	for i in range(n):
+		print(i)
+print_items(10)
+n: function parameter, which is looping from zero to n and printing these numbers to the console.
+
+in this case it will print 0 to 9 
+
+so this means that as the input grows, the number of the operations that is performing is going to also grow, so this is going to be O(n) complexity.
