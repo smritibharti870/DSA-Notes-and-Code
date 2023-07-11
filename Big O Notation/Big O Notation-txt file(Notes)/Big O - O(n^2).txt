@@ -1,0 +1,35 @@
+def print_items(n):
+	for i in range(n):
+		for j in range(n):
+		    print(i,j)
+print_items(10)
+
+as per this above code have nested loops inside each other.
+like this until we have finished all first loops over here
+
+so when i run this code it will give output in compile with start from zero and zero and it will continue nine and nine. so as per this when we pass 10, it will print 100 operation.
+
+so this means that the first loop over here is going to run n times and the second also will run n times.
+
+so this means,
+    as per first iteration time complexity is O(N)
+    and for second iteration time complexity is O(N)
+
+    this means that we are going to multiply them and it's going to be O(n^2) time complexity.
+
+
+def print_items(n):
+	for i in range(n):
+		for j in range(n):
+            for k in range(n):
+		        print(i,j,k)
+print_items(10)
+
+so in this case we have 3 loops inside each othere, so there time complexity will be changed
+
+n*n*n=n^3 so there time complexity is going to be O(n^3).
+
+in this case out will be generated 1000 time starts with 000 and ends with 999
+
+
+but in terms of big O, it doesn't matter if it is into the third, into the fourth, into the 10th, we are still going to write this one as a O(n^2) squared time complexity.

@@ -1,0 +1,26 @@
+def print_items(n):
+    for i in range(n):
+        print(i)
+    for j in range(n):
+        print(j)
+
+in this case first loop we are running from i until n, and in the second loop we are running from j to n, so in both of them are identical, except we have used i and j
+
+so as per this coding it will printed for i = 0 to 9 and then j = 0 to 9, in the case also use O(n) time complexity
+
+so in this case for i = O(n) and j = O(n) is equal to O(2n)
+
+hence in this case this is a O(2n) complexity
+
+Note: Contant factors are very small in the face of arbitrarily large n. All in all, in asymptotic analysis, we ignore contant factors because it removes a lot of noise from the hardware and small changes in the algoritm that really are not important for analysis and this mokes algorithms easier to compare.
+
+
+It is very possible that O(N) code is faster than O(1) code for specific inputs
+
+Different computers with different architectures have different constant factors.
+
+Different algoriths with the same basic idea and computational complexity might have slightly different constants
+
+Example: a*(b-c) vs a*b-a*c
+
+As n->infinity , constant factors are not really a big deal
